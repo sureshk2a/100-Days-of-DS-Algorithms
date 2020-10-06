@@ -1,30 +1,11 @@
-//Undirected graph, directed graph, unweighted graph, weighted graph
+//Undirected and Directed graph, Weighted graph, UnWeighted graph, Cyclic, Asyclic grpah 
+//Edge List
+var edgeList = [[0,2],[2,3],[2,1],[1,3]]
 
-//Ways to describe a graph
-//Adjacent matrix, Adjacency list, Edge list
+//Adjacent List
+var edge = [[2],[2,3]] //index 0 connected to  and index 1 connected to 2 and 3
 
-class Graph{
-    constructor(){
-        this.numberOfNodes = 0;
-        this.adjacentList = {
-            
-        };
-    }
-    addvertex(node){
-
-    }
-    addEdge(node1,node2){
-
-    }
-    showConnections(){
-
-    }
+//Adjacent Matrix
+const graph = {
+    
 }
-
-const myGraph = new Graph();
-myGraph.addvertex("7")
-myGraph.addvertex("4")
-myGraph.addvertex("5")
-myGraph.addvertex("3")
-myGraph.addvertex("1")
-myGraph.addvertex("2")
